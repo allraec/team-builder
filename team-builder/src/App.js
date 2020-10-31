@@ -15,7 +15,7 @@ function App() {
       role: member.role
     };
 
-    setMembers([newMember, ...members]);
+    setMembers([...members, newMember]);
   };
 
   return (

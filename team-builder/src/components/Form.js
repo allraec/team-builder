@@ -28,6 +28,8 @@ function Form(props) {
                 value={member.name}
                 required
             />
+            <br />
+            <br />
             <label>Email: </label>
             <input 
                 id='email'
@@ -38,6 +40,8 @@ function Form(props) {
                 value={member.email}
                 required
             />
+            <br />
+            <br />
             <label>Role: </label>
             <input 
                 id='role'
@@ -48,6 +52,8 @@ function Form(props) {
                 value={member.role}
                 required
             />
+            <br />
+            <br />
             <button type='submit'>Submit</button>
         </form>
 
