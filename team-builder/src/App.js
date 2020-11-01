@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Team Members</h1>
+      <h1 className='h1'>My Team Members</h1>
       <Form addNewMember={addNewMember}/>
       <Members members={members}/>
     </div>

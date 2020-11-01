@@ -12,6 +12,9 @@ const MembersContainer = styled.div`
 const MembersCard = styled.div`
 
     margin: 2%;
+    border: 1px dashed;
+    padding: 1%;
+    border-radius: 5%;
 
 `
 
@@ -24,7 +27,7 @@ function Members(props) {
                 <MembersCard key={member.id}>
                     <h2>{member.name}</h2>
                     <p>{member.email}</p>
-                    <p>{member.role}</p>
+                    <p className='role'>{member.role}</p>
                 </MembersCard>
             ))}
         </MembersContainer>

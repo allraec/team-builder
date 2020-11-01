@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.h1{
+  font-family: 'Syne Mono', monospace;
+
+}
+
+body{
+  background-color: black;
+  color:#20C20E;
+  font-family: 'Syne Mono', monospace;
+}
+
+.role{
+  text-decoration: underline;
+}
+
+button{
+
+  background-color: black;
+  color:#20C20E;
+  border: 1px solid #20C20E;
+  font-family: 'Syne Mono', monospace;
+}
+
+button:hover{
+  border-style: groove;
+}
